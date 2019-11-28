@@ -1,0 +1,14 @@
+.item input {
+	display: inline-block;
+	padding: 8px;
+}
+.cost {
+	margin-left: 10px;
+}
+.add_btn {
+	padding: 10px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	outline: none;
+	cursor: pointer;
+}
