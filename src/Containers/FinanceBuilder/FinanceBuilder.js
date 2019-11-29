@@ -28,6 +28,8 @@ class FinanceBuilder extends Component {
 		let number = parseInt(event.target.value);
 		if (number >= 0) {
 			this.setState({newItemPrice: event.target.value});
+		} else {
+			this.setState({newItemPrice: 0});
 		}
 	};
 
